@@ -1,17 +1,17 @@
 $primary: #003b6f;
 $background: #FAFAFA;
-$gradient:#b2b9bb;
-$bg-gradient:#efeff3;
+$gradient: #c2cbce;
+$bg-gradient: #efeff3;
 $disabled: #606266;
-$answers-backgroud:#edeff1;
+$answers-backgroud: #edeff1;
 
 
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 100vh;
     display: flex;
     justify-content: center;
-    background: linear-gradient($gradient, $background);    
+    background: linear-gradient($gradient, $background);
 
 }
 
@@ -69,6 +69,7 @@ ul {
     border: 1px solid $gradient;
     color: $background;
 }
+
 //_______________________________
 
 .bottom {
@@ -92,5 +93,25 @@ button {
         color: $disabled;
         cursor: none;
     }
-
 }
+
+    .result {
+        text-align: center;
+
+        h3 {
+            font-size: 24px;
+            letter-spacing: 1.4px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+
+            span {
+                color: $primary;
+                font-size: 20px;
+            }
+        }
+    }
+
+
