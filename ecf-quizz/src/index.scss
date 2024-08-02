@@ -1,0 +1,96 @@
+$primary: #003b6f;
+$background: #FAFAFA;
+$gradient:#b2b9bb;
+$bg-gradient:#efeff3;
+$disabled: #606266;
+$answers-backgroud:#edeff1;
+
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient($gradient, $background);    
+
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 7em 0 0 0;
+    display: flex;
+    justify-content: center;
+    color: #192b3c;
+}
+
+.container {
+    width: 700px;
+    background: $background;
+    border: #cdccde solid 1px;
+    box-shadow: 4px 4px 4px $gradient;
+    border-radius: 5px;
+    margin: 4rem 0 0 0;
+    padding: 3rem 4rem;
+
+}
+
+//____________Questions__________
+.active-question-number {
+    font-size: 2rem;
+    color: $primary;
+
+}
+
+.total-question-number {
+    font-size: 1.4rem;
+    color: $disabled;
+
+}
+
+
+ul {
+    li {
+        text-decoration: none;
+        list-style: none;
+        color: #202b35;
+        font-size: 1.3rem;
+        background: $answers-backgroud;
+        border: 1px solid #dddee0;
+        border-radius: 20px;
+        padding: 0.7rem;
+        margin: 0.7rem 0 0 0;
+        cursor: pointer;
+
+    }
+}
+
+.selected-answer {
+    background: $primary;
+    border: 1px solid $gradient;
+    color: $background;
+}
+//_______________________________
+
+.bottom {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+button {
+    background: $primary;
+    border-radius: 7px;
+    font-size: 16px;
+    color: $background;
+    padding: 10px;
+    margin: 1rem 0 0 0;
+    border: none;
+    cursor: pointer;
+
+    &:disabled {
+        background: $bg-gradient;
+        color: $disabled;
+        cursor: none;
+    }
+
+}
