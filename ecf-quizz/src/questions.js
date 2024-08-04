@@ -1,28 +1,44 @@
 export const questionsQuizz = {
     questions: [
       {
-        question: "A ?",
+        question: "Quel est l'os le plus long du corps ?",
         choices: [
-          "a",
-          "b",
-          "c",
-          "d",
+          "A | Le fémur",
+          "B | Le tibia",
+          "C | L'humerus",
+          "D | Le péroné",
         ],
-        difficulty: "(Difficile : 5 points)",
+        
+        level: "Niveau 1",
+        difficulty: "(Facile : 1 point)",
         type: "QCM",
-        correctAnswer: "a",
+        correctAnswer: "A | Le fémur",
       },
       {
-        question: "B ?",
+        question: " Quelle est l'origine du cocktail Mojito ? ",
         choices: [
-          "a",
-          "b",
-          "c",
-          "d",
+            "A | Mexique",
+            "B | Cuba",
+            "C | Argentine",
+            "D | Costa Rica"
         ],
+        level: "Niveau 1",
+        difficulty: "(Facile : 1 point)",
+        type: "QCM",
+        correctAnswer: "B | Cuba",
+      },
+      {
+        question: " Quel est le nom du groupe de rock formé par Dave Grohl ? ",
+        choices: [
+            "A | Nirvana",
+            "B | Queen Of The Stone Age",
+            "C | Tenacious D",
+            "D | Foo Fighters"
+        ],
+        level: "Niveau 2",
         difficulty: "(Moyen : 2 points)",
         type: "QCM",
-        correctAnswer: "a",
+        correctAnswer: "D | Foo Fighters",
       },
       {
         question: "C ?",
@@ -32,7 +48,8 @@ export const questionsQuizz = {
           "c",
           "d",
         ],
-        difficulty: "(Facile : 1 point)",
+        level: "Niveau 3",
+        difficulty: "(Difficile : 5 points)",
         type: "QCM",
         correctAnswer: "a",
       },
