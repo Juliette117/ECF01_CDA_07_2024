@@ -15,7 +15,7 @@ Créez un mini-jeu web appelé “Quiz Aventureˮ. Le joueur traverse une série
 
 -  Ajoutez un système de progression pour que les joueurs puissent reprendre leur partie là où ils lʼont laissée.  
 
--  Implémentez une logique simple pour les niveaux de difficulté croissants : les questions deviennent plus difficiles au fur et à mesure que le  joueur progresse.  
+-  Implémentez une logique simple pour les niveaux de difficulté croissants : les questions deviennent plus difficiles au fur et à mesure que le      joueur progresse.  
  
 -  Facultatif : inclure un tableau de scores pour afficher les meilleures performances des joueurs.
 
