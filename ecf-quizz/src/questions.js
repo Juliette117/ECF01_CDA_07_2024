@@ -14,18 +14,19 @@ export const questionsQuizz = {
         type: "QCM",
         correctAnswer: "A | Le fémur",
       },
+      
       {
-        question: " Quelle est l'origine du cocktail Mojito ? ",
+        question: " Combien de pattes les fourmis possèdent t-elles ? ",
         choices: [
-            "A | Mexique",
-            "B | Cuba",
-            "C | Argentine",
-            "D | Costa Rica"
+            "A | 4",
+            "B | 6",
+            "C | 10",
+            "D | 12"
         ],
         level: "Niveau 1",
         difficulty: "(Facile : 1 point)",
         type: "QCM",
-        correctAnswer: "B | Cuba",
+        correctAnswer: "B | 6",
       },
       {
         question: " Quel est le nom du groupe de rock formé par Dave Grohl ? ",
@@ -41,17 +42,17 @@ export const questionsQuizz = {
         correctAnswer: "D | Foo Fighters",
       },
       {
-        question: "C ?",
+        question: "Quelle rivière traverse la ville de Bruxelles ?",
         choices: [
-          "a",
-          "b",
-          "c",
-          "d",
+          "A | La Meuse",
+          "B | La Senne",
+          "C | L'Escaut",
+          "D | L'Ourthe",
         ],
         level: "Niveau 3",
         difficulty: "(Difficile : 5 points)",
         type: "QCM",
-        correctAnswer: "a",
+        correctAnswer: "B | La Senne",
       },
     ],
   };

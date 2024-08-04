@@ -157,9 +157,7 @@ const Quizz = ({ questions }) => {
                         <p>
                             Réponses fausses: <span>{result.wrongAnswers}</span>
                         </p>
-                        <p>
-                            Réponses fausses: <span>{result.wrongAnswers}</span>
-                        </p>
+                       
 
                         {result.score == 9 ? <p className="fullScore">Tout juste, félicitations !</p> : <p className="missScore">Vous pouvez rejouer pour tenter d'améliorer votres score</p>}
 
