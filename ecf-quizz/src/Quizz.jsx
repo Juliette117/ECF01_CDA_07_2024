@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { questionsQuizz, resultInitalState } from "./questions";
+import { resultInitalState } from "./questions";
 
 
 const Quizz = ({ questions }) => {
@@ -92,7 +92,7 @@ const Quizz = ({ questions }) => {
             <div className="container">
                 {!showResult ? (<>
                     <span className="description">
-                        {currentQuestion === questions.length - 4 ? " Bienvenue sur le jeu de quizz de Quiz Aventure !" : null}
+                        {currentQuestion === questions.length - 10 ? " Bienvenue sur le jeu de Quiz Aventure ! Vous devez répondre à des questions plus ou moins difficile pour réussir ce mini quizz. Vous pouvez recommencer autant de fois que vous voulez pour améliorer votre score,  à vous de jouer !  " : null}
                     </span>
                     <span className="active-question-number">
                         {currentQuestion + 1}
@@ -133,8 +133,8 @@ const Quizz = ({ questions }) => {
 
                     <div className="bottom">
                         <span className="nextLevel">
+                            {currentQuestion === questions.length - 6 ? "Passer au niveau suivant !" : null}
                             {currentQuestion === questions.length - 3 ? "Passer au niveau suivant !" : null}
-                            {currentQuestion === questions.length - 2 ? "Passer au niveau suivant !" : null}
                             {currentQuestion === questions.length - 1 ? "Dernière question !" : null}
                         </span>
                         <button onClick={onClickNext} disabled={answerIndex === null}>
@@ -159,7 +159,7 @@ const Quizz = ({ questions }) => {
                         </p>
                        
 
-                        {result.score == 9 ? <p className="fullScore">Tout juste, félicitations !</p> : <p className="missScore">Vous pouvez rejouer pour tenter d'améliorer votres score</p>}
+                        {result.score == 21 ? <p className="fullScore">Tout juste, félicitations !</p> : <p className="missScore">Vous pouvez rejouer pour tenter d'améliorer votres score</p>}
 
                         <button onClick={onTryAgain}>Réessayer</button>
                     </div>
