@@ -1,20 +1,6 @@
 export const questionsQuizz = {
     questions: [
       {
-        question: "Quel est l'os le plus long du corps ?",
-        choices: [
-          "A | Le fémur",
-          "B | Le tibia",
-          "C | L'humerus",
-          "D | Le péroné",
-        ],
-        
-        level: "Niveau 1",
-        difficulty: "(Facile : 1 point)",
-        type: "QCM",
-        correctAnswer: "A | Le fémur",
-      },
-      {
         question: "Quel est la seconde plus grosse ville de France en nombre d'habitants ?",
         choices: [
           "A | Lille",
@@ -27,6 +13,20 @@ export const questionsQuizz = {
         difficulty: "(Facile : 1 point)",
         type: "QCM",
         correctAnswer: "B | Marseille",
+      },
+      {
+        question: "Quel est l'os le plus long du corps ?",
+        choices: [
+          "A | Le fémur",
+          "B | Le tibia",
+          "C | L'humerus",
+          "D | Le péroné",
+        ],
+        
+        level: "Niveau 1",
+        difficulty: "(Facile : 1 point)",
+        type: "QCM",
+        correctAnswer: "A | Le fémur",
       },
       {
         question: "Combien de joueurs de foot se trouvent sur le terrain lors du coup d'envoi d'un match si aucun joueur n'est pénalisé ?",
